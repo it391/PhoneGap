@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Single page template</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+</head>
+
+
+<body>
+<div data-role="page">
+	<div data-role="header">
+		<h1>Welcome!</h1><img src="http://i.imgur.com/3r7SYK4.png" alt="Low resolution logo" class="ui-btn-right"/>
+	</div>
+	<div data-role="content">
+		<div data-role="fieldcontain">
+			<p style="text-align: center">Type in any 16 digit credit card number to be checked and click the Enter button to validate!</p>
+	   		<input type="text" size="25" id="userNum" style="text-align: center"/>
+	   		<input type="submit" value="Enter" id="submitBtn" />
+				<br /><br />
+				<div id="resultDiv" style="text-align: center"></div>
+			</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Created By: James Ethridge</h4>
+	</div>
+</div>
+
+<script src = "js/index.js"></script>
+</body>
+</html>
